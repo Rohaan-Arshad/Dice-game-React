@@ -1,13 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,300&display=swap');
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #504c4c;
 }
+/* 
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  max-width: 1240px;
+  margin: 0 auto ;
+  height: 72px;
+  align-items: center;
+}
+ul {
+  display: flex;
+}
+li{
+  padding: 10px;
+  list-style: none;
+}
+.button button{
+  background-color: rgba(255, 123, 0, 0.836);
+  color: white;
+  padding: 6px;
+  width: 80px;
+  border: none;
+}
+.main{
+  display: flex;
+  max-width: 1200px;
+  align-items: center;
+  margin: 0 auto ;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: calc(100vh-72px);
+}
+#head{
+  font-weight: 900;
+font-size:108px ;
+line-height: 5.5rem;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
+.right{
+  display: flex;
+  flex-direction: column;
+}
+.right p{
+  margin-top: -18px;
+  max-width: 400px;
+}
+.right  p,.logos,.button,h5{
+  font-size: 12px;
+  padding-left: 10px;
+}
+.button,.logos{
+  display: flex;
+  gap: 49px;
+}
+.logos img{width: 30px;}
+
+
+.button button:hover{
+  background-color: rgb(255, 123, 0);
+}
+li:hover{
+width: max;
+background-color: rgba(0, 0, 0, 0.459);
+color: white;
+}
+@media (max-width:1492px){
+  .left img{
+    width: 500px;
+    height: 500px;
+  }
+}
+@media (max-width:1138px){
+  .left img{
+    width: 350px;
+    height: 350px;
+  }
+  #head{
+    font-weight: 900;
+font-size:78px ;
+line-height: 4.5rem;
+  }
+  nav{
+    gap:100px
+  }
+}
+@media (max-width:622px){
+  .left img{
+    width: 350px;
+    height: 350px;
+    margin-top: 30px;
+  }
+  #head{
+    font-weight: 900;
+font-size:78px ;
+line-height: 4.5rem;
+  }
+  .main{
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 1200px;
+    align-items: center;
+    margin: 0 auto ;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: calc(100vh-72px);
+  }li{
+    font-size: 12px;
+    padding: 4px;
+  }
+  nav{
+    display: flex;
+    gap:4px;justify-content: space-evenly
+  };
+
+} 
+
+ */

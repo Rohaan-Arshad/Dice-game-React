@@ -1,0 +1,70 @@
+body{
+    padding: 0;margin: 0;box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .nice{
+    max-width: 900px ;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  .main{
+    display:flex;
+    gap:45px;
+    align-items: center;
+  }
+  .left,.form form
+  {
+    width: 370px;
+    display:flex;flex-direction: column;
+    gap: 10px;
+  }
+  #buto{
+    align-self: flex-end;
+  }
+  .button{
+    width: 190px;
+    height: 30px;
+    background-color: black;color :white;
+    border-radius:3px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:8px;
+  }
+  .buttons{
+    display: flex;
+    gap:30px;
+
+  }
+  .email{
+    height: 30px;
+    background-color:transparent;color :rgb(8, 4, 4);
+    border-radius:3px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:8px;
+  }
+  
+  .form form{
+    margin-top: 10px;
+    
+  }
+  .form form input{
+    border-radius:3px;
+    height: 30px;
+    border: 1px solid black;
+  }
+  .form form label{
+    position: relative;
+    top: 20px;
+    left: 10px;
+    padding: 0 2px;
+    background-color: white;
+    width: max-content;
+  }
+  .right img{
+    width:430px;height: 430px;
+  }
